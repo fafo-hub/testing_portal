@@ -1,0 +1,24 @@
+.scroll-page {
+    position: fixed;
+    bottom: 65px;
+    /* float: left; */
+    left: 90%;
+    /* z-index: +2; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.scroll-page button {
+    width: 26px;
+    height: 26px;
+    border-bottom: 1px solid gray;
+    border: 1px solid gray;
+    border-radius: 40px;
+    padding: 0 0 27px 0;
+}
+
+.scroll-page div {
+    display: flex;
+    gap: 5px;
+}
